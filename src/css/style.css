@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50% , -50%);
+    width: 500px;
+    height: 450px;
+    padding: 70px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+h1{
+    position: relative;
+    top: -60px;
+    font-size: 45px;
+}
+
+label{
+    font-size: 16px;
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+}
+
+input{
+    font-weight: bold;
+    font-size: 19px;
+    padding: 7px;
+    border: hidden;
+    border: hidden;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+select{
+    font-weight: bold;
+    border: hidden;
+    font-size: 19px;
+    padding: 7px 0px;
+    width: 480px;
+    border: hidden;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+
+.btn{
+    position: relative;
+    top: 25px;
+}
+
+button{
+    border: hidden;
+    padding: 10px 0px;
+    width: 480px;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    background-color: #000000;
+    color: #ffffff;
+    letter-spacing: 3px;
+}

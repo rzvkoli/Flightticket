@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>BPTO-Buy plane tickets online</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Buy plane tickets online</h1>
+        
+        <div>
+            <div>
+                <label>Name</label>
+            </div>
+            <input type="text">
+        </div>
+
+        <div>
+            <div>
+                <label>Last Name</label>
+            </div>
+            <input type="text">
+        </div>
+
+        <div>
+            <div>
+                <label>Phone Number</label>
+            </div>
+            <input type="tel">
+        </div>
+
+        <div>
+            <div>
+                <label>Email</label> 
+            </div>
+            <input type="email">
+        </div>
+
+        <div class="country">
+            <div>
+                <label>Country</label>  
+            </div>
+            <select id="country" name="country" required>
+                <option value="" selected="" disabled=""></option>
+                <option value="iran">Iran</option>
+                <option value="usa">America</option>
+                <option value="turkey">Turkey</option>
+            </select>
+        </div>
+
+        <div>
+            <div>
+                <label>City</label>
+            </div>
+            <select id="city"></select>
+        </div>
+
+        <div class="btn">
+            <button>Payment and Reservation</button>
+        </div>
+    </div>
+    
+    <script src="src/js/script.js" ></script>
+</body>
+</html>
